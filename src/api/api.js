@@ -1,5 +1,5 @@
 const Api = {
-  apiUrl: "http://localhost:3001/tarefas",
+  apiUrl: "https://blueedtech-tarefas.herokuapp.com/tarefas",
   fetchGetAll: () => fetch(`${Api.apiUrl}/get-tarefas`),
   fetchGetById: (id) => fetch(`${Api.apiUrl}/get-tarefa-id/${id}`),
   fetchPost: (data) => {
